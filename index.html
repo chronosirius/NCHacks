@@ -1,12 +1,129 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>NCHacks project</title>
-    <meta charset='utf-8'>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Open+Sans&display=swap');
-    </style>
-  </head>
-  <body>
-    <h1>All about Animals</h1>
-  </body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p class = "WebsiteDescription">What our website is about:<br><br>
+    We created this website for the NorCalHacks Competition. We coded a
+    
+    website which gives you easy
+    
+    access to information
+    
+    about land and sea animals in
+    
+    the form of flip cards. 
+  
+    We chose this as our project 
+  
+    as thinking about the theme, 
+    
+    we thought land and sea animals
+    
+    fit the topic perfectly.</p>
+
+
+  <button class="NextSlide" onclick="ScreenChange()">Water Animals ➡️</button>
+	<div id='header'>
+		<p>All About Animals!</p>
+		<p>Made By Shravan Sithambaram,
+			Udayan Singhal, and
+			Prashast Bhatia; Nor Cal</p>
+    <form>
+      <label class = "Rating" for = "rating">What do you rate <br> your experience on our<br> website from 1-10?</label>
+      <input class= "Textbox" type = "text" id = "rating">
+      <input class = "Submit" type = "submit">
+    </form> 
+	</div>
+	<table>
+		<tr>
+			<td style='width: 20px;'>
+				<div class="box" id='cheetah'>
+					<div class='buttonimage'>
+						<img src="cheetah.jpg" class="animalimage" alt='cheetah'>
+						<p>Cheetah</p>
+					</div>
+					<div class='text'>
+						<p>Cheetahs are the fastest land animals and can reach speeds of up to 60 miles per hour. They
+							are native to Africa and found in grasslands, savannas, and deserts. Cheetahs have a slender
+							body and long legs with non-retractable claws, which give them an advantage in high-speed
+							pursuit.
+						</p>
+					</div>
+				</div>
+			</td>
+			<td style='width: 20px;'>
+				<div class="box" id='cheetah'>
+					<div class='buttonimage'>
+						<img src="lion.jpg" class="animalimage" alt='cheetah'>
+						<p>Lion</p>
+					</div>
+					<div class='text'>
+						<p>Lions are the second largest big cat species and are known for their distinctive manes. They are apex predators and can be found in African savannas and grasslands. Lions are social animals and live in groups called prides, which are led by a dominant male. They hunt mainly at night.</p>
+					</div>
+				</div>
+			</td>
+			<td style='width: 20px;'>
+				<div class="box" id='cheetah'>
+					<div class='buttonimage'>
+						<img src="elephant.jpg" class="animalimage" alt='cheetah'>
+						<p>Elephant</p>
+					</div>
+					<div class='text'>
+						<p>Elephants are the largest land animals and are known for their intelligence and social behavior. They can be found in various habitats in Africa and Asia, including savannas, forests, and deserts. Elephants are herbivores and have long trunks and large ears.
+						</p>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td style='width: 20px;'>
+				<div class="box" id='cheetah'>
+					<div class='buttonimage'>
+						<img src="bear.jpg" class="animalimage" alt='cheetah'>
+						<p>Bear</p>
+					</div>
+					<div class='text'>
+						<p>Bears are large, predatory mammals known for their shaggy fur and powerful build. They can be found in various habitats across the world, including forests, grasslands, and tundra. There are eight species of bears, including the polar bear, brown bear, and black bear. 
+
+						</p>
+					</div>
+				</div>
+			</td>
+			<td style='width: 20px;'>
+				<div class="box" id='cheetah'>
+					<div class='buttonimage'>
+						<img src="giraffe.jpg" class="animalimage" alt='cheetah'>
+						<p>Giraffe</p>
+					</div>
+					<div class='text'>
+						<p>Giraffes are the tallest mammals and are easily recognizable by their long necks and spotted coats. They are native to Africa and can be found in savannas, woodlands, and open forests. Giraffes are herbivores and feed on leaves, flowers, and fruits from trees. Their mouths reach high places.
+</p>
+					</div>
+				</div>
+			</td>
+			<td style='width: 20px;'>
+				<div class="box" id='cheetah'>
+					<div class='buttonimage'>
+						<img src="wolf.jpg" class="animalimage" alt='cheetah'>
+						<p>Wolf</p>
+					</div>
+					<div class='text'>
+						<p>Wolves are a species of the Canidae family, closely related to dogs. They are apex predators and play a critical role in maintaining the balance of their ecosystem. Wolves are known for their social behavior, hunting in packs and communicating through vocalizations and body language. 
+
+						</p>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<script src='script.js'></script>
+</body>
+
 </html>
